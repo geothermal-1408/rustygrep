@@ -1,4 +1,4 @@
-# Minigrep
+# Rustygrep
 
 A simple command-line search tool written in Rust that searches for text patterns in files. Similar to the classic `grep` command but with simplified functionality.
 
@@ -7,20 +7,20 @@ A simple command-line search tool written in Rust that searches for text pattern
 1. Make sure you have Rust installed. If not, install it from [rustup.rs](https://rustup.rs/)
 2. Clone this repository:
 
-```bash
-git clone https://github.com/yourusername/minigrep
-cd minigrep
+```console
+git clone https://github.com/geothermal-1408/rustygrep
+cd rustygrep
 ```
 
 ## Build the project
 
-```bash
+```console
 cargo build
 ```
 
 ## Usage
 
-```bash
+```console
 cargo run <query> <file_path> [--case-sensitive]
 ```
 
@@ -45,7 +45,7 @@ cargo run <query> <file_path> [--case-sensitive]
 
 ### Examples
 
-```bash
+```console
 # Search case-insensitive (default)
 cargo run frog poem.txt
 
